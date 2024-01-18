@@ -13,5 +13,8 @@ char randchar(){
         char letters[] = "ABCDEFGHIJKLMNPQRSTUVWXYZ"; 
         int randomNum = rand() % 25;
         return  letters[randomNum];
+	// another  way
+	//printf("%c", letters[randomNum]);
+	//return 0;
 }       
 
