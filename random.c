@@ -9,10 +9,9 @@
 // that returns a random character from ‘A’ – ‘Z’. The character is used in 
 // the main program to generate a random 7 letter word.
 
-int randchar(){
+char randchar(){
         char letters[] = "ABCDEFGHIJKLMNPQRSTUVWXYZ"; 
-        int randomNum = rand() % 26;
-        printf("%c", letters[randomNum]);
-        return 0;
+        int randomNum = rand() % 25;
+        return  letters[randomNum];
 }       
 
