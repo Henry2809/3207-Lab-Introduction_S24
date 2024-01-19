@@ -10,7 +10,7 @@
 // the main program to generate a random 7 letter word.
 
 char randchar(){
-        char letters[] = "ABCDEFGHIJKLMNPQRSTUVWXYZ"; 
+        char letters[] = "ABCDEFGHIJKLMN0PQRSTUVWXYZ"; 
         int randomNum = rand() % 25;
         return  letters[randomNum];
 	// another  way
