@@ -11,10 +11,10 @@
 
 char randchar(){
         char letters[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"; 
-        int randomNum = rand() % 25;
+        int randomNum = rand() % 26;
         return  letters[randomNum];
 	// another  way
 	//printf("%c", letters[randomNum]);
 	//return 0;
-}       
+}
 
